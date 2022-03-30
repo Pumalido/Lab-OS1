@@ -1,7 +1,7 @@
 def z1():
     import psutil
     from pprint import pprint
-    print("Информация о системе:")
+    print("Информация о системе: ")
     pprint(psutil.disk_partitions())
 
 
